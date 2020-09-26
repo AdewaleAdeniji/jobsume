@@ -3,7 +3,7 @@ function pull(requrl,body){
           var prefix ='backend/'
       }
       else {
-        var prefix = "http://jobsume.000webhostapp.com/";
+        var prefix = "https://jobsume.000webhostapp.com/";
     }
   return  fetch(prefix+requrl,body)
   		
