@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preview Resume</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Themesdesign" />
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!--Material Icon -->
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.css" />
+
+    <!-- selectize css -->
+    <link rel="stylesheet" type="text/css" href="css/selectize.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/nice-select.css" />
+
+    <!-- Custom  Css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader -->
+
+    <!-- Navigation Bar-->
+    <header id="topnav" class="defaultscroll scroll-active">
+        <!-- Tagline STart -->
+        <div class="tagline">
+            <div class="container">
+                <div class="float-left">
+                    <div class="phone">
+                        <i class="mdi mdi-phone-classic"></i> +234 8107 034667
+                    </div>
+                    <div class="email">
+                        <a href="#">
+                            <i class="mdi mdi-email"></i> devferanmi@gmail.com
+                        </a>
+                    </div>
+                </div>
+               <!--  <div class="float-right">
+                    <ul class="topbar-list list-unstyled d-flex" style="margin: 11px 0px;">
+                        <li class="list-inline-item"><a href="javascript:void(0);"><i class="mdi mdi-account mr-2"></i>Benny Simpson</a></li>
+                        <li class="list-inline-item">
+                            <select id="select-lang" class="demo-default">
+                                <option value="">Language</option>
+                                <option value="4">English</option>
+                                <option value="1">Spanish</option>
+                                <option value="3">French</option>
+                                <option value="5">Hindi</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div> -->
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- Tagline End -->
+
+        <!-- Menu Start -->
+        <div class="container">
+            <!-- Logo container-->
+            <div>
+                <a href="index" class="logo">
+                    <i class="fa fa-briefcase"></i>
+                </a>
+            </div> 
+             <div class="buy-button">
+                <a href="#" class="btn btn-secondary createresume"><i class="mdi mdi-cloud-upload"></i> Create Resume</a>
+            </div>                
+            <div class="buy-button">
+                <a href="post-a-job.html" class="btn btn-primary"><i class="mdi mdi-cloud-upload"></i> Post a Job</a>
+            </div><!--end login button-->
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+    
+            <div id="navigation">
+                <!-- Navigation Menu-->   
+                <ul class="navigation-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="has-submenu">
+                        <a href="javascript:void(0)">Jobs</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="job-list.html">Job List</a></li>
+                            <li><a href="job-grid.html">Job Grid</a></li>
+                            <li><a href="job-details.html">Job Details</a></li>
+                            <li><a href="job-details-2.html">Job Details-2</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="has-submenu">
+                        <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="faq.html">Faqs</a></li>
+                            <li><a href="pricing.html">Pricing plans</a></li>
+                            <li class="has-submenu"><a href="javascript:void(0)"> Candidates</a><span class="submenu-arrow"></span>
+                                <ul class="submenu">
+                                    <li><a href="candidates-listing.html">Candidates Listing</a></li>
+                                    <li><a href="candidates-profile.html">Candidates Profile</a></li>
+                                    <li><a href="create-resume.html">Create Resume</a></li>
+                                </ul>  
+                            </li>
+                            <li class="has-submenu"><a href="javascript:void(0)"> Blog</a><span class="submenu-arrow"></span>
+                                <ul class="submenu">
+                                    <li><a href="blog-grid.html">Blogs</a></li>
+                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                </ul>  
+                            </li>
+                            <li class="has-submenu"><a href="javascript:void(0)"> Employers</a><span class="submenu-arrow"></span>
+                                <ul class="submenu">
+                                    <li><a href="employers-list.html">Employers List</a></li>
+                                    <li><a href="company-detail.html">Company Detail</a></li>
+                                </ul>  
+                            </li>
+                            <li class="has-submenu"><a href="javascript:void(0)"> User Pages</a><span class="submenu-arrow"></span>
+                                <ul class="submenu">
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="signup.html">Signup</a></li>
+                                    <li><a href="recovery_passward.html">Forgot Password</a></li>
+                                </ul>  
+                            </li>
+                            <li><a href="components.html"> Components</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact</a>
+                    </li>
+                </ul><!--end navigation menu-->
+            </div><!--end navigation-->
+        </div><!--end container-->
+        <!--end end-->
+    </header><!--end header-->
+    <!-- Navbar End -->
+    
+  
+
+    <!-- CANDIDATES PROFILE START -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4 class="text-dark" id='username'></h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 mt-3">
+                    <div class="border rounded p-4">
+                         <p class="text-muted" id='tagline'>
+                       </p>
+                        <p class="text-muted" id='bio'>
+                       </p>
+
+                      
+                        
+                        <ul class="list-inline pt-3 border-top mb-0">
+                            <li class="list-inline-item mr-3">
+                                <a href="#" class="text-muted f-15 mb-0 location">
+                                    <i class="mdi mdi-map-marker mr-2"></i>
+                            
+                            </a>
+                            </li>
+
+                            <li class="list-inline-item mr-3">
+                                <a href="" class="text-muted f-15 mb-0 portfoliourl"><i class="mdi mdi-web mr-2"></i>
+                                
+                            </a>
+                            </li>
+
+                            <li class="list-inline-item mr-3">
+                                <a href="" class="text-muted f-15 mb-0 emailaddress"><i class="mdi mdi-email mr-2"></i>
+                               
+                            </a>
+                            </li>
+
+                            <li class="list-inline-item mr-3">
+                                <a href="" class="text-muted f-15 mb-0 phoneno">
+                                    <i class="mdi mdi-cellphone-iphone mr-2"></i>
+                            
+                            </a>
+                            </li>
+
+                             <li class="list-inline-item mr-3">
+                                  <a href="create" class="text-muted f-15 mb-0">
+                                         <i class="fa fa-edit edit"></i>
+                                    </a>                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-12 mt-4 pt-2">
+                    <h4 class="text-dark">Education :</h4>
+                </div>
+            </div>
+
+            <div class="row education">
+               
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 mt-4 pt-2">
+                    <h4 class="text-dark">Experience :</h4>
+                </div>
+            </div>
+
+            <div class="row jobs">
+              
+
+               
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-12 mt-4 pt-2">
+                    <h4 class="text-dark">Skills :</h4>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 mt-4 pt-2">
+                
+                <ul class="skills">
+                    
+                </ul>
+                   
+                   
+
+                
+            </div>         
+        </div>
+         
+    </section>
+    <!-- CANDIDATES PROFILE END -->
+
+   <!-- subscribe start -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="float-left position-relative notification-icon mr-2">
+                        <i class="mdi mdi-bell-outline text-primary"></i>
+                        <span class="badge badge-pill badge-danger">1</span>
+                    </div>
+                    <h5 class="mt-2 mb-0">Your Job Notification</h5>
+                </div>
+                <div class="col-lg-8 col-md-7 mt-4 mt-sm-0">
+                    <form class="subscribe">
+                        <div class="form-group mb-0">
+                            <div class="input-group mb-0">
+                                <input name="email" id="email" type="email" class="form-control" placeholder="Your email :" required="" aria-describedby="newssubscribebtn">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary submitBnt" type="submit" id="newssubscribebtn">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                    <a href="javascript:void(0)">JobSume</a>
+                    <p class="mt-4">Create Resume,Apply to Jobs, Get Employed; All in one click</p>
+                    <ul class="social-icon social list-inline mb-0">
+                        <li class="list-inline-item"><a href="#" class="rounded"><i class="mdi mdi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="rounded"><i class="mdi mdi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="rounded"><i class="mdi mdi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="rounded"><i class="mdi mdi-google"></i></a></li>
+                    </ul>
+                </div>
+                
+            
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <p class="text-white mb-4 footer-list-title f-17">Business Hours</p>
+                    <ul class="list-unstyled text-foot mt-4 mb-0">
+                        <li>Monday - Friday : 9:00 to 17:00</li>
+                        <li class="mt-2">Saturday : 10:00 to 15:00</li>
+                        <li class="mt-2">Sunday : Day Off (Holiday)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <hr>
+    <footer class="footer footer-bar">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="">
+                        <p class="mb-0">© 2020 Jobya. Design with <i class="mdi mdi-heart text-danger"></i> by DevFeranmi.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!--end container-->
+    </footer><!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a href="#" class="back-to-top rounded text-center" id="back-to-top"> 
+        <i class="mdi mdi-chevron-up d-block"> </i> 
+    </a>
+    <!-- Back to top -->
+     <div class="loading"><span class="one">.</span><span class="two">.</span><span class="three">.</span></div>
+    <!-- javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!-- selectize js -->
+    <script src="js/selectize.min.js"></script>
+
+    <script src="js/jquery.nice-select.min.js"></script>
+
+    <script src="js/app.js"></script>
+     <script type="text/javascript" src="sw2.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript">
+        $(".resume").click(function(e){
+            window.location.href="resume";
+        })
+         var token = getitem('usertoken');
+            if(token){
+                loading();
+               var dt = JSON.stringify({"token":token});
+               pull('info',{
+                method:'POST',
+                body:dt,
+               })
+               .then(response=>response.json())
+               .then((data)=>{
+                closeload();
+                if(data.code==200){
+                var r = data.text;
+                get('username').innerHTML =r.username;
+                $('#tagline').append(r.tagline)
+                $('.phoneno').append(r.phoneno)
+                $('#bio').append(r.bio);
+                $(".emailaddress").append(r.emailaddress);
+                $('.location').append(r.address+","+r.country);
+                //$('.country').value = r.country;
+                process(r.skills);
+                $('.portfoliourl').append(r.portfolio);
+                //$('.sex').value = r.sex;
+                  }
+               })
+               .catch((err)=>{
+                closeload();
+                console.log(err);
+                overlay("Failed to fetch information,Please refresh");
+               })
+            }
+            else {
+                login();
+            }
+            function process(skills){
+                //console.log(skills);
+                var arr = skills.split(",");
+                arr.forEach((skill)=>{
+                    var html = `<li><div class="progress-box mt-4">
+                        <h6 class="title text-muted">${skill}</h6>
+                   </div></li>`;
+                   $(".skills").append(html);
+                })
+            }
+            loading();
+            var dat = JSON.stringify({"token":token});
+            pull('educations',{
+                method:'POST',
+                 body:dat,
+            })
+            .then(response=>response.json())
+            .then((data)=>{ 
+                closeload();
+                if(data.code==200){
+                    var edus = data.text;
+
+                    edus.forEach((edu,index)=>{
+                        var html = `<div class="col-lg-4 col-md-6 mt-4 pt-5 " id="${edu.id}edu">
+                                    <div class="border rounded candidates-profile-education text-center text-muted">
+                                        <div class="profile-education-icon border rounded-pill bg-white text-primary">
+                                            <i class="mdi mdi-36px mdi-school"></i>
+                                        </div>
+                                        <h6 class="text-uppercase f-17"><a href="#" class="text-muted">${edu.school}</a></h6>
+                                        <p class="f-14 mb-1">${edu.duration}</p>
+                                        <p class="pb-3 mb-0">${edu.course}</p>
+                                        <p class="pt-3 border-top mb-0">
+                                            <i class="fa fa-edit edit eduedit" eduid=${edu.id} preid=${index}></i>
+                                            <i class="fa fa-trash trashdel edutrash" eduid=${edu.id}></i>
+
+                                        </p>
+                                        
+                                    </div>
+                                </div>`;
+                    $(".education").append(html);
+
+                    })
+                    $(".eduedit").click(function(e){
+                        e.preventDefault();
+                        loading();
+                        var eduid = $(this).attr('eduid');
+                        var preid = $(this).attr('preid');
+                        var elem = edus[preid];
+                        var school = elem.school;
+                        var course = elem.course;
+                        var duration  = elem.duration;
+                        var newschool = '';
+                        var newcourse =  '';
+                        var newduration = '';
+                        closeload();
+                        Swal.fire({
+                            title:'Edit Education',
+                            text:"School Name",
+                            input:'text',
+                            inputAttributes:{
+                                value : school,
+                                placeholder:school,
+                                required:true,
+                                minlength:10,
+                                validationMessage:'Invalid School Name',
+                            },
+                            validationMessage:'Invalid School Name',
+                            showCancelButton:true,
+                            confirmButtonText:'Save and Continue',
+                            cancelButtonText:'Cancel',
+                        })
+                        .then((result)=>{
+                            if(result.value){
+                                newschool = result.value;
+                                Swal.fire({
+                                 title:'Edit Education',
+                                    text:"School Course/ Course Studied at "+newschool,
+                                    input:'text',
+                                    inputAttributes:{
+                                        value :course,
+                                        placeholder:course,
+                                        required:true,
+                                        minlength:3,
+                                        validationMessage:'Invalid Course Name',
+                                    },
+                                    validationMessage:'Invalid Course Name',
+                                    showCancelButton:true,
+                                    confirmButtonText:'Save and Continue',
+                                    cancelButtonText:'Cancel',
+                                })
+                                .then((ui)=>{
+                                    if(ui.value){
+                                        newcourse = ui.value;
+                                        Swal.fire({
+                                           title:'Edit Education',
+                                            text:"School Duration/Duration of Study",
+                                            input:'text',
+                                            inputAttributes:{
+                                                value : duration,
+                                                required:true,
+                                                placeholder:duration,
+                                                validationMessage:'Invalid Duration',
+                                            },
+                                            validationMessage:'Invalid Duration',
+                                            showCancelButton:true,
+                                            confirmButtonText:'Save and Continue',
+                                            cancelButtonText:'Cancel',
+                                        })
+                                        .then((dur)=>{
+                                            if(dur.value){
+                                                newduration = dur.value;
+                                                reprocess(eduid,newschool,newcourse,newduration,token);
+                                            }
+                                        })
+                                    }
+                                })
+                            }
+                        })
+                    })
+                    $(".edutrash").click(function(e){
+                        e.preventDefault();
+                        var eduid = $(this).attr('eduid');
+                        $(this).removeClass('fa-trash');
+                        $(this).addClass('fa-spinner fa-spin');
+                        var educ = removeEdu(eduid);
+                       
+                        if(educ==undefined){
+                            var ide = "#"+eduid+"edu";
+                            $(ide).hide(500);
+                        }
+                        else {
+                        $(this).addClass('fa-trash');
+                        $(this).removeClass('fa-spinner fa-spin');
+                        }
+                    })
+                }
+                else if(data.code==205){
+                    login();
+                }
+                else {
+                    overlay(data.text);
+                }
+
+            })
+            .catch((err)=>{
+                 closeload();
+                console.log(err);
+                overlay("Failed to fetch information,Please refresh");
+            })
+                    
+            function reprocess(eduid,school,course,duration,token){
+                loading();
+                var data = JSON.stringify({"token":token,"eduid":eduid,"school":school,"course":course,"duration":duration,"token":token});
+                pull('education',{
+                    method:'PATCH',
+                    body:data,
+                })
+                .then(response=>response.json())
+                .then((data)=>{
+                    closeload();
+                    if(data.code==200){
+                        Swal.fire({
+                            icon:'success',
+                            text:school+" updated successfully",
+                            showConfirmButton:false,
+                            timer:20000,
+                        })
+                        .then((result)=>{
+                            window.location.reload();
+                        })
+                    }
+                    else if(data.code==205){
+                        login();
+                    }   
+                    else {
+                        overlay(data.text);
+                    }
+                })
+                .catch((err)=>{
+                    closeload();
+                    overlay('request failed');
+                    console.log(err);
+                })
+            }
+
+            function removeEdu(eduid){
+                var data  = JSON.stringify({"token":token,"eduid":eduid});
+                pull('education',{
+                    method:"DELETE",
+                    body:data
+                })
+                .then(response=>response.json())
+                .then((data)=>{
+                    if(data.code==200){
+                        return true;
+                    }
+                    else if(data.code==205){
+                        login();
+                    }
+                    else {
+                        return false;
+                    }
+                })
+                .catch((err)=>{
+                    console.log(err);
+                    return false;
+                })
+            }
+            pull('exps',{
+                method:'POST',
+                body:dat
+            })
+            .then(response=>response.json())
+            .then((result)=>{
+                if(result.code==200){
+                    var jobs = result.text;
+                    jobs.forEach((job)=>{
+                        var html = `  <div class="col-md-6 mt-3 mt-md-0 pt-3" id="${job.uniquekey}jobid">
+                    <div class="border rounded job-list-box p-4">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="company-brand-logo text-center mb-4">
+                                    <img src="images/featured-job/img-2.png" alt="" class="img-fluid mx-auto d-block">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-9">
+                                <div class="job-list-desc candidates-profile-exp-desc">
+                                    <h5 class="f-19 mb-2"><a href="#" class="text-dark">${job.company}</a></h5>
+                                    <p class="text-muted mb-0 f-16">${job.jobtitle}</p>
+                                    <p class="text-muted mb-0 f-16">${job.duration}</p>
+                                   
+                                   <p class="pt-3 mb-0">
+                                   ${job.description}
+                                   </p>
+                                     <p class="pt-3 border-top mb-0">
+                                        
+                                        <i class="fa fa-trash trashdel jobtrash" jobid=${job.uniquekey}></i>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+                $(".jobs").append(html);
+                    })
+                $(".jobtrash").click(function(e){
+                    e.preventDefault();
+                    var jobid = $(this).attr('jobid');
+                    $(this).removeClass("fa-trash");
+                    $(this).addClass('fa-spinner fa-spin');
+                    var data = JSON.stringify({"token":token,"uniquekey":jobid});
+                    pull('experience',{
+                        method:'DELETE',
+                        body:data
+                    })
+                    .then(response=>response.json())
+                    .then((data)=>{
+                        if(data.code==200){
+                            var ide = '#'+jobid+"jobid";
+                            $(ide).hide(400);
+                        }
+                        else if(data.code==205) {
+                            login();
+                        }
+                        else {
+                            overlay(data.text);
+                    $(this).addClass("fa-trash");
+                    $(this).removeClass('fa-spinner fa-spin');
+                        }
+                    })
+                    .catch((err)=>{
+                        console.log(err);
+                    })
+                })
+                }
+                else if(data.code==205){
+                    login();
+                }
+                else {
+                    overlay(data.text);
+                }
+            })
+            .catch((err)=>{
+                console.log(err);
+            })
+    </script>
+</body>
+</html>
